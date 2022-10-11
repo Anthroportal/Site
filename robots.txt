@@ -1,3 +1,4 @@
-User-agent: * Disallow:
+User-agent: Googlebot-Image
+Disallow: /
 
 Sitemap: https://anthroportal.net/sitemap.xml
