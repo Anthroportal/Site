@@ -1,1 +1,1 @@
-[![preview](https://github.com/Infinit7Even/Anthroportal/blob/master/preview.png)](https://anthroportal.net)
+[![preview](https://raw.githubusercontent.com/Anthroportal/Site/master/preview.png)](https://anthroportal.net)
