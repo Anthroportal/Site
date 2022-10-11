@@ -76,10 +76,10 @@
         <loc>https://anthroportal.net/branding.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/cinema.html</loc>
+        <loc>https://anthroportal.net/changelogs.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/coming_soon.html</loc>
+        <loc>https://anthroportal.net/cinema.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community.html</loc>
@@ -104,5 +104,8 @@
     </url>
     <url>
         <loc>https://anthroportal.net/sitemap.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/soon.html</loc>
     </url>
 </urlset>
