@@ -22,10 +22,31 @@
         <loc>https://anthroportal.net/cinema/page=7.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/england.html</loc>
+        <loc>https://anthroportal.net/community/discovery/europe/it/local.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/italy.html</loc>
+        <loc>https://anthroportal.net/community/discovery/europe/it/national.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/europe/ro/local.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/europe/ro/national.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/europe/uk/local.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/europe/uk/national.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/europe/it.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/europe/ro.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/europe/uk.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community/discovery/africa.html</loc>
