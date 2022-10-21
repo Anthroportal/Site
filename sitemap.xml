@@ -34,10 +34,13 @@
         <loc>https://anthroportal.net/community/discovery/europe/ro/online.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/uk/local.html</loc>
+        <loc>https://anthroportal.net/community/discovery/europe/uk/eng/local.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/uk/online.html</loc>
+        <loc>https://anthroportal.net/community/discovery/europe/uk/eng/online.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/europe/uk/eng.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community/discovery/europe/it.html</loc>
