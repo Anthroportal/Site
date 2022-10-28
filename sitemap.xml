@@ -34,22 +34,10 @@
         <loc>https://anthroportal.net/community/discovery/europe/ro/online.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/uk/eng/local.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/europe/uk/eng/online.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/europe/uk/eng.html</loc>
-    </url>
-    <url>
         <loc>https://anthroportal.net/community/discovery/europe/it.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community/discovery/europe/ro.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/europe/uk.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community/discovery/africa.html</loc>
@@ -124,6 +112,9 @@
         <loc>https://anthroportal.net/net.html</loc>
     </url>
     <url>
+        <loc>https://anthroportal.net/partner.html</loc>
+    </url>
+    <url>
         <loc>https://anthroportal.net/privacy.html</loc>
     </url>
     <url>
@@ -131,5 +122,8 @@
     </url>
     <url>
         <loc>https://anthroportal.net/soon.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/translate.html</loc>
     </url>
 </urlset>
