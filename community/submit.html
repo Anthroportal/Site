@@ -64,33 +64,39 @@
                             <div class="mb-3"><input class="border rounded-pill shadow-sm form-control" type="text" name="link" placeholder="Community Link" required="">
                                 <p class="text-muted mb-0">Enter the <a href="/community/guidelines.html#link">access group</a> link.</p>
                             </div>
-                            <div class="mb-3"><input class="border rounded-pill shadow-sm form-control" type="text" name="type" placeholder="Community Type" required="">
-                                <p class="text-muted mb-0">Enter the type between <a href="/community/guidelines.html#type">local or virtual</a>.</p>
-                            </div>
-                            <div class="mb-3"><input class="border rounded-pill shadow-sm form-control" type="text" name="location" placeholder="Community Location" required="">
+                            <div class="mb-3"><input class="border rounded-pill shadow-sm form-control" type="text" name="location" placeholder="Community Location" required=""></div>
+                            <div class="mb-3">
+                                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex align-items-center align-items-sm-center align-items-lg-center align-items-xl-center"><input class="border rounded-pill shadow-sm form-control" type="text" name="region" placeholder="Region" style="margin-right: 4px;"><input class="border rounded-pill shadow-sm form-control" type="text" name="city" placeholder="City" style="margin-right: 4px;"></div>
                                 <p class="text-muted mb-0">Enter the <a href="/community/guidelines.html#location">location</a> of your community.</p>
+                            </div>
+                            <div class="mb-3"><textarea class="shadow-sm form-control" name="message" rows="6" placeholder="What is your role in the community?" required="" style="height: 100px;"></textarea>
+                                <p class="text-muted mb-0">Talk a little about yourself.</p>
                             </div>
                             <div class="mb-3"><input class="border rounded-pill shadow-sm form-control" type="text" name="contact" placeholder="Contact Name" required=""></div>
                             <div class="mb-3"><input class="shadow-sm form-control" type="email" name="email" placeholder="Contact Email" required=""></div>
+                            <div class="mb-3">
+                                <div class="d-flex d-sm-flex d-lg-flex d-xl-flex align-items-center align-items-sm-center align-items-lg-center align-items-xl-center"><input class="border rounded-pill shadow-sm form-control" type="text" name="telegram" placeholder="Telegram" style="margin-right: 4px;"><input class="border rounded-pill shadow-sm form-control" type="text" name="discord" placeholder="Discord" style="margin-right: 4px;"></div>
+                                <p class="text-muted mb-0"><a href="/community/verify.html">Why do we need this data</a>?</p>
+                            </div>
                             <div><button class="btn btn-primary shadow d-block w-100" type="submit">Submit</button></div>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-4 col-xl-4">
+                <div class="col-md-4 col-xl-4" data-aos="fade" data-aos-duration="500" data-aos-delay="500" data-aos-once="true">
                     <div>
-                        <div class="col mb-5" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="750" data-aos-once="true" id="guidelines" style="margin-top: 45px;">
+                        <div class="col mb-5" id="guidelines">
                             <div class="card shadow-sm" data-bss-hover-animate="pulse">
                                 <div class="card-body px-4 py-5 px-md-5" style="height: 250px;">
                                     <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="top: 1rem;right: 1rem;position: absolute;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-book-fill text-success">
                                             <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"></path>
                                         </svg></div>
                                     <h5 class="fw-bold card-title">Guidelines<br></h5>
-                                    <p class="text-muted card-text mb-4">Find out what you need to be able to submit your community, follow the steps and become one of us.</p>
+                                    <p class="text-muted card-text mb-4">Find out what you need to be able to submit your community, follow the steps and become one of us.<br></p>
                                     <p class="text-muted card-text mb-4"><a href="/community/guidelines.html">Read more</a></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col mb-5" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" data-aos-once="true" id="terms">
+                        <div class="col mb-5" id="terms">
                             <div class="card shadow-sm" data-bss-hover-animate="pulse">
                                 <div class="card-body px-4 py-5 px-md-5" style="height: 250px;">
                                     <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="top: 1rem;right: 1rem;position: absolute;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-shield-lock-fill text-success">
@@ -102,11 +108,24 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col mb-5" id="terms-1">
+                            <div class="card shadow-sm" data-bss-hover-animate="pulse">
+                                <div class="card-body px-4 py-5 px-md-5" style="height: 250px;">
+                                    <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="top: 1rem;right: 1rem;position: absolute;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-unlock-fill text-success">
+                                            <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2z"></path>
+                                        </svg></div>
+                                    <h5 class="fw-bold card-title">Privacy<br></h5>
+                                    <p class="text-muted card-text mb-4">Find out what data is collected, how to manage it, request deletion and much more.<br></p>
+                                    <p class="text-muted card-text mb-4"><a href="/privacy.html">Read more</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <p class="text-center text-muted copyright" data-aos="fade" data-aos-duration="500" data-aos-once="true" style="margin-bottom: 0px;height: 50px;">By submitting a request you accept the <a href="/privacy.html">Privacy Policy</a> on data processing.<br><a href="/community/guidelines.html">Community Guidelines</a> and <a href="/community/terms.html">Terms</a> apply.</p>
+        <p class="text-center text-muted copyright" data-aos="fade" data-aos-duration="500" data-aos-once="true" style="margin-bottom: 0px;height: 50px;"><br>This site does not accept <strong>NSFW</strong> communities.</p>
     </section>
     <footer class="bg-dark" id="footer">
         <div class="container py-4 py-lg-5">

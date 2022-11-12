@@ -49,6 +49,18 @@
         <loc>https://anthroportal.net/community/discovery/europe/ro.html</loc>
     </url>
     <url>
+        <loc>https://anthroportal.net/community/discovery/north_america/us/sc/local.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/north_america/us/sc/virtual.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/north_america/us/sc.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery/north_america/us.html</loc>
+    </url>
+    <url>
         <loc>https://anthroportal.net/community/discovery/africa.html</loc>
     </url>
     <url>
@@ -86,6 +98,9 @@
     </url>
     <url>
         <loc>https://anthroportal.net/community/terms.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/verify.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/contact/error.html</loc>
@@ -136,6 +151,12 @@
         <loc>https://anthroportal.net/privacy.html</loc>
     </url>
     <url>
+        <loc>https://anthroportal.net/projects.html</loc>
+    </url>
+    <url>
         <loc>https://anthroportal.net/sitemap.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/translate.html</loc>
     </url>
 </urlset>
