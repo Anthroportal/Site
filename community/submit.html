@@ -69,14 +69,11 @@
                                 <div class="d-flex d-sm-flex d-lg-flex d-xl-flex align-items-center align-items-sm-center align-items-lg-center align-items-xl-center"><input class="border rounded-pill shadow-sm form-control" type="text" name="region" placeholder="Region" style="margin-right: 4px;"><input class="border rounded-pill shadow-sm form-control" type="text" name="city" placeholder="City" style="margin-right: 4px;"></div>
                                 <p class="text-muted mb-0">Enter the <a href="/community/guidelines.html#location">location</a> of your community.</p>
                             </div>
-                            <div class="mb-3"><textarea class="shadow-sm form-control" name="message" rows="6" placeholder="What is your role in the community?" required="" style="height: 100px;"></textarea>
-                                <p class="text-muted mb-0">Talk a little about yourself.</p>
-                            </div>
+                            <div class="mb-3"><textarea class="shadow-sm form-control" name="message" rows="6" placeholder="What is your role in the community?" required="" style="height: 100px;"></textarea></div>
                             <div class="mb-3"><input class="border rounded-pill shadow-sm form-control" type="text" name="contact" placeholder="Contact Name" required=""></div>
                             <div class="mb-3"><input class="shadow-sm form-control" type="email" name="email" placeholder="Contact Email" required=""></div>
                             <div class="mb-3">
                                 <div class="d-flex d-sm-flex d-lg-flex d-xl-flex align-items-center align-items-sm-center align-items-lg-center align-items-xl-center"><input class="border rounded-pill shadow-sm form-control" type="text" name="telegram" placeholder="Telegram" style="margin-right: 4px;"><input class="border rounded-pill shadow-sm form-control" type="text" name="discord" placeholder="Discord" style="margin-right: 4px;"></div>
-                                <p class="text-muted mb-0"><a href="/community/verify.html">Why do we need this data</a>?</p>
                             </div>
                             <div><button class="btn btn-primary shadow d-block w-100" type="submit">Submit</button></div>
                         </form>
@@ -97,7 +94,7 @@
                             </div>
                         </div>
                         <div class="col mb-5" id="terms">
-                            <div class="card shadow-sm" data-bss-hover-animate="pulse">
+                            <div class="card shadow-sm" data-bss-hover-animate="pulse" style="margin-top: -20px;">
                                 <div class="card-body px-4 py-5 px-md-5" style="height: 250px;">
                                     <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="top: 1rem;right: 1rem;position: absolute;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-shield-lock-fill text-success">
                                             <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm0 5a1.5 1.5 0 0 1 .5 2.915l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99A1.5 1.5 0 0 1 8 5z"></path>
@@ -108,8 +105,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col mb-5" id="terms-1">
-                            <div class="card shadow-sm" data-bss-hover-animate="pulse">
+                        <div class="col mb-5" id="privacy">
+                            <div class="card shadow-sm" data-bss-hover-animate="pulse" style="margin-top: -20px;">
                                 <div class="card-body px-4 py-5 px-md-5" style="height: 250px;">
                                     <div class="bs-icon-lg d-flex justify-content-center align-items-center mb-3 bs-icon" style="top: 1rem;right: 1rem;position: absolute;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-unlock-fill text-success">
                                             <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2z"></path>
@@ -125,7 +122,6 @@
             </div>
         </div>
         <p class="text-center text-muted copyright" data-aos="fade" data-aos-duration="500" data-aos-once="true" style="margin-bottom: 0px;height: 50px;">By submitting a request you accept the <a href="/privacy.html">Privacy Policy</a> on data processing.<br><a href="/community/guidelines.html">Community Guidelines</a> and <a href="/community/terms.html">Terms</a> apply.</p>
-        <p class="text-center text-muted copyright" data-aos="fade" data-aos-duration="500" data-aos-once="true" style="margin-bottom: 0px;height: 50px;"><br>This site does not accept <strong>NSFW</strong> communities.</p>
     </section>
     <footer class="bg-dark" id="footer">
         <div class="container py-4 py-lg-5">
@@ -167,7 +163,7 @@
                     </a><a href="/home.html">
                         <p class="text-muted">Your web portal for events and much more.</p>
                     </a>
-                    <div style="margin-bottom: 10px;"><a href="/changelogs.html"><span class="badge rounded-pill bg-primary text-uppercase" data-bss-hover-animate="rubberBand" style="margin-right: 5px;height: 24px;">changelogs</span></a><a href="/ko-fi.html"><span class="badge rounded-pill bg-primary text-uppercase" data-bss-hover-animate="rubberBand" style="margin-right: 5px;height: 24px;width: 70px;"><img src="https://i.imgur.com/ibjhCj2.png" width="25" height="25" style="width: 16px;height: 16px;">&nbsp;Ko-fi</span></a></div>
+                    <div style="margin-bottom: 10px;"><a href="/changelogs.html"><span class="badge rounded-pill bg-primary text-uppercase" data-bss-hover-animate="rubberBand" style="margin-right: 5px;height: 24px;">changelogs</span></a><a href="/support.html"><span class="badge rounded-pill bg-primary text-uppercase" data-bss-hover-animate="rubberBand" style="margin-right: 5px;height: 24px;width: 95px;"><img src="https://i.imgur.com/ibjhCj2.png" width="25" height="25" style="width: 16px;height: 16px;">&nbsp;Support</span></a></div>
                 </div>
             </div>
             <hr>
@@ -186,6 +182,9 @@
                             </svg></a></li>
                     <li class="list-inline-item" id="telegram"><a href="https://telegram.anthroportal.net" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telegram">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"></path>
+                            </svg></a></li>
+                    <li class="list-inline-item" id="barq"><a href="https://barq.anthroportal.net" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-geo-alt-fill">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"></path>
                             </svg></a></li>
                     <li class="list-inline-item" id="email"><a onclick="window.open(&#39;mailto:info@anthroportal.net&#39;)"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope-fill">
                                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>

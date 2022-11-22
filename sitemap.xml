@@ -100,9 +100,6 @@
         <loc>https://anthroportal.net/community/terms.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/verify.html</loc>
-    </url>
-    <url>
         <loc>https://anthroportal.net/contact/error.html</loc>
     </url>
     <url>
@@ -142,9 +139,6 @@
         <loc>https://anthroportal.net/</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/ko-fi.html</loc>
-    </url>
-    <url>
         <loc>https://anthroportal.net/net.html</loc>
     </url>
     <url>
@@ -152,6 +146,9 @@
     </url>
     <url>
         <loc>https://anthroportal.net/sitemap.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/support.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/translate.html</loc>
