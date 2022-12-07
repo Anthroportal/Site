@@ -22,70 +22,52 @@
         <loc>https://anthroportal.net/cinefurs/page=7.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/de/local.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/europe/de.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/de/virtual.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/europe/it.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/it/local.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/north_america/us/sc.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/it/virtual.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/north_america/us.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/ro/local.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/africa.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/ro/virtual.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/antartica.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/de.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/asia.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/it.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/europe.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/europe/ro.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/north_america.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/north_america/us/sc/local.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/oceania.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/north_america/us/sc/virtual.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local/south_america.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/north_america/us/sc.html</loc>
+        <loc>https://anthroportal.net/community/discovery/local.html</loc>
     </url>
     <url>
-        <loc>https://anthroportal.net/community/discovery/north_america/us.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/africa.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/antartica.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/asia.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/europe.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/north_america.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/oceania.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/discovery/south_america.html</loc>
+        <loc>https://anthroportal.net/community/discovery/virtual.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community/submit/error.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community/submit/success.html</loc>
+    </url>
+    <url>
+        <loc>https://anthroportal.net/community/discovery.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community/guidelines.html</loc>
@@ -146,11 +128,5 @@
     </url>
     <url>
         <loc>https://anthroportal.net/sitemap.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/support.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/translate.html</loc>
     </url>
 </urlset>
