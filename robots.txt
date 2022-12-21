@@ -3,6 +3,12 @@ Disallow:
 
 User-agent: *
 Disallow: /404.html
+Disallow: /net.html
+Disallow: /partner.html
+Disallow: /contact/
+Disallow: /community/submit/
+Disallow: /community/virtual.html
+Disallow: /community/local/
 
 User-agent: googlebot-image
 Disallow: /
