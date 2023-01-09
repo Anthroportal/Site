@@ -25,6 +25,9 @@
         <loc>https://anthroportal.net/community/local/europe/de.html</loc>
     </url>
     <url>
+        <loc>https://anthroportal.net/community/local/europe/es.html</loc>
+    </url>
+    <url>
         <loc>https://anthroportal.net/community/local/europe/it.html</loc>
     </url>
     <url>
@@ -68,9 +71,6 @@
     </url>
     <url>
         <loc>https://anthroportal.net/community/local.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/community/partner.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/community/submit.html</loc>
@@ -122,9 +122,6 @@
     </url>
     <url>
         <loc>https://anthroportal.net/net.html</loc>
-    </url>
-    <url>
-        <loc>https://anthroportal.net/partner.html</loc>
     </url>
     <url>
         <loc>https://anthroportal.net/privacy.html</loc>
